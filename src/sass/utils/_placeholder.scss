@@ -1,0 +1,30 @@
+%list {
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+%link {
+  text-decoration: none;
+}
+
+%button {
+  padding: 10px 24px;
+
+  font-family: inherit;
+  @include font(16, 700, 30, 0.06);
+
+  text-align: center;
+
+  border-radius: $primary-border-radius;
+  border: none;
+
+  background-color: getBg-color('general-white');
+  color: getColor('secondary');
+
+  cursor: pointer;
+
+  @media screen and (min-width: 1200px) {
+    padding: 10px 32px;
+  }
+}

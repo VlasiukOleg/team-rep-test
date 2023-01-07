@@ -1,0 +1,55 @@
+$colors: (
+  'primary': #757575,
+  'secondary': #212121,
+  'accent': #2196f3,
+  'accent-hover': #188ce8,
+  'logo': #000000,
+  'general-white': #ffffff,
+  'address': rgba(255, 255, 255, 0.6),
+  'primary-icon': #afb1b8,
+  'placeholder': rgba(117, 117, 117, 0.5),
+);
+
+$bg-colors: (
+  'general-white': #ffffff,
+  'primary': #2f303a,
+  'secondary': #f5f4fa,
+  'accent': #2196f3,
+  'footer-icons': rgba(255, 255, 255, 0.1),
+  'backdrop': rgba(0, 0, 0, 0.2),
+  'overlay-primary': rgba(47, 48, 58, 0.8),
+  'overlay-accent': rgba(33, 150, 243, 0.9),
+);
+
+$borders: (
+  'primary': 1px solid #ececec,
+  'secondary': 1px solid rgba(33, 33, 33, 0.2),
+  'icon': 1px solid #afb1b8,
+  'accent': 1px solid #2196f3,
+  'input': 1px solid rgba(255, 255, 255, 0.3),
+  'checkbox': 2px solid #212121,
+);
+
+$box-shadow-primary: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+$box-shadow-secondary: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+  0px 2px 2px rgba(0, 0, 0, 0.12);
+$box-shadow-simple: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+$main-gap: 30px;
+
+$primary-border-radius: 4px;
+
+$general-cubic: cubic-bezier(0.4, 0, 0.2, 1);
+$general-duration: 250ms;
+
+$transitions: (
+  'color': color $general-duration $general-cubic,
+  'background-color': background-color $general-duration $general-cubic,
+  'transform': transform $general-duration $general-cubic,
+  'box-shadow': box-shadow $general-duration $general-cubic,
+  'border': border $general-duration $general-cubic,
+  'opacity': opacity $general-duration $general-cubic,
+  'visibility': visibility $general-duration $general-cubic,
+  'fill': fill $general-duration $general-cubic,
+);
