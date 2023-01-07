@@ -1,0 +1,15 @@
+@function getColor($key) {
+  @return map-get($colors, $key);
+}
+
+@function getBg-color($key) {
+  @return map-get($bg-colors, $key);
+}
+
+@function getBorder($key) {
+  @return map-get($borders, $key);
+}
+
+@function gettransition($key) {
+  @return map-get($transitions, $key);
+}
