@@ -1,0 +1,14 @@
+body {
+  background-color: getBg-color('general-white');
+  color: getColor('primary');
+
+  @include font();
+
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
